@@ -1,0 +1,34 @@
+{
+    "noticias": [
+      {
+        "id": 1,
+        "imagem": "assets/img/noticia 1.png",
+        "titulo": "Hoje tá frio",
+        "descricao": "Hoje em São Paulo"
+      },
+      {
+        "id": 2,
+        "imagem": "assets/img/noticia 2.png",
+        "titulo": "Hoje tá frio",
+        "descricao": "Hoje em São Paulo"
+      },
+      {
+        "id": 3,
+        "imagem": "assets/img/noticia 3.png",
+        "titulo": "Hoje tá frio",
+        "descricao": "Hoje em São Paulo"
+      },
+      {
+        "id": 4,
+        "imagem": "assets/img/noticia 4.png",
+        "titulo": "Hoje tá frio",
+        "descricao": "Hoje em São Paulo"
+      },
+      {
+        "imagem": "assets/img/noticia 1.png",
+        "titulo": "Amanha vai ta calor",
+        "descricao": "Esporo que amanha esjeta",
+        "id": 7
+      }
+    ]
+  }

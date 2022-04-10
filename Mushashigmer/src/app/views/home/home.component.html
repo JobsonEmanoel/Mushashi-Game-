@@ -1,0 +1,114 @@
+<header>
+    <div class="container-grid posicionamento-header">
+        <a href=""><img class="logo" src="assets/img/MUSHASI GAMER.png" alt="Logo do Site"></a>
+        <nav id="menu" class="menu">
+            <a href="">Home</a>
+            <a href="">Loja</a>
+            <a href="#noticias">Noticías</a>
+            <a href="">Novidades</a>
+            <a href="">Contato</a>
+        </nav>
+        <a href="#" id="barras"><img class="barras" src="assets/img/menu.png" alt="Menu de barras"></a>
+    </div>
+</header>
+<div class="banner">
+    <div class="container-grid posicao-texto">
+    <div class="texto-banner">
+        <h1>Mushashi sem Fronteira</h1>
+        <p>Um futuro além das fronteiras</p>
+        <a routerLink="login">Inscreva-se</a>
+    </div>
+</div>
+<section class="secao-jogos">
+    <div class="jogos container">
+        <a href=""><img src="assets/img/cs.png" alt=""></a>
+        <a href=""><img src="assets/img/war.png" alt=""></a>
+        <a href=""><img src="assets/img/apex.png" alt=""></a>
+        <a href=""><img src="assets/img/fort 1.png" alt=""></a>
+        <a href=""><img src="assets/img/nvidia.png" alt=""></a>
+    </div>
+</section>
+<section class="secao-sobre">
+    <div class="conteudo-sobre container">
+        <div class="row">
+        <div class="texto-sobre col-md-6">
+            <h2>Where can I get some?</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+        </div>
+        <img src="assets/img/lo 1.png" alt="Imagem do loki prime">
+    </div>
+</div>
+</section>
+<section class="secao-equipamentos">
+    <div class="equipamentos container">
+        <a href=""><img src="assets/img/equipamentos.png" alt=""></a>
+        <a href=""><img src="assets/img/computadores.png" alt=""></a>
+    </div>
+</section>
+<section id="noticias" class="secao-noticias">
+    <div class="container">
+        <div class="bloco-noticias">
+            <h2>Notícias</h2>
+            <div id="espaco-noticias" class="content-new">
+                <div *ngFor="let noticias of listaNocias" class="cardnews">
+                    <img [src]=noticia.imagem alt="Foto dos acessorios">
+                    <h3>{{noticia.titulo}}</h3>
+                    <p>{{noticia.descricao}}</p>
+                </div>
+                <div class="cardnews">
+                    <img src="assets/img/noticia 2.png" alt="Foto dos acessorios">
+                    <h3>Títlo da notícia</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="cardnews">
+                    <img src="assets/img/noticia 3.png" alt="Foto dos acessorios">
+                    <h3>Títlo da notícia</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="cardnews">
+                    <img src="assets/img/noticia 4 - Copia.png" alt="Foto dos acessorios">
+                    <h3>Títlo da notícia</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="rodape container">
+        <div class="links-footer">
+            <div class="links">
+                <h2>Comunidade</h2>
+                <ul>
+                    <li><a href="#">Fóruns</a></li>
+                    <li><a href="#">Política de Conteúdo</a></li>
+                    <li><a href="#">Política de Produtos dos Fãs</a></li>
+                    <li><a href="#">Regras de utilização</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h2>Suporte</h2>
+                <ul>
+                    <li><a href="#">Suporte</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Definições de cookies</a></li>
+                </ul>
+            </div>
+        </div>
+        <img class="Logo-rodape" src="img/" alt="">
+        <div class="sociais">
+            <h2>Faça parte do Mushashi sem fronteiras</h2>
+            <form action="">
+                <input id="campo-email" type="email" placeholder="E-mail">
+                <button onclick="enviarEmail()">Cadastrar</button>
+            </form>
+            <div class="Siga-nos">
+                <h2>Siga-nos em</h2>
+                <a href=""><img src="assets/img/insta 1.png" alt="Logo do insta"></a>
+                <a href=""><img src="assets/img/face 1.png" alt="Logo do face"></a>
+                <a href=""><img src="assets/img/youtub 1.png" alt="Logo do youtub"></a>
+            </div>
+        </div>
+    </div>
+</footer>
