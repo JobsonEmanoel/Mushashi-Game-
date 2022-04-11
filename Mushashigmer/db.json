@@ -1,34 +1,47 @@
 {
-    "noticias": [
-      {
-        "id": 1,
-        "imagem": "assets/img/noticia 1.png",
-        "titulo": "Hoje tá frio",
-        "descricao": "Hoje em São Paulo"
-      },
-      {
-        "id": 2,
-        "imagem": "assets/img/noticia 2.png",
-        "titulo": "Hoje tá frio",
-        "descricao": "Hoje em São Paulo"
-      },
-      {
-        "id": 3,
-        "imagem": "assets/img/noticia 3.png",
-        "titulo": "Hoje tá frio",
-        "descricao": "Hoje em São Paulo"
-      },
-      {
-        "id": 4,
-        "imagem": "assets/img/noticia 4.png",
-        "titulo": "Hoje tá frio",
-        "descricao": "Hoje em São Paulo"
-      },
-      {
-        "imagem": "assets/img/noticia 1.png",
-        "titulo": "Amanha vai ta calor",
-        "descricao": "Esporo que amanha esjeta",
-        "id": 7
-      }
-    ]
-  }
+  "users": [
+    {
+      "email": "xxjobsonxx@email.com",
+      "password": "jobson123",
+      "id": 1
+    },
+    {
+      "email": "jobson@email.com",
+      "password": "$2a$10$BUpQ8..fO1.EQvq0P4UFaOxTv4RckRRRmNl0zGzeK9rse03IGIsd.",
+      "nome": "jobson",
+      "id": 2
+    }
+  ],
+  "noticias": [
+    {
+      "id": 1,
+      "imagem": "assets/img/noticia 1.png",
+      "titulo": "Hoje tá frio",
+      "descricao": "Hoje em São Paulo"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/noticia 2.png",
+      "titulo": "Hoje tá frio",
+      "descricao": "Hoje em São Paulo"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/noticia 3.png",
+      "titulo": "Hoje tá frio",
+      "descricao": "Hoje em São Paulo"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/img/noticia 4.png",
+      "titulo": "Hoje tá frio",
+      "descricao": "Hoje em São Paulo"
+    },
+    {
+      "imagem": "assets/img/noticia 1.png",
+      "titulo": "Amanha vai ta calor",
+      "descricao": "Esporo que amanha esjeta",
+      "id": 7
+    }
+  ]
+}

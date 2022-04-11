@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
 
   constructor(private noticiaService: NoticiasService) { }
 
-  ListaNoticias = [] as Noticias[]
+  listaNoticias = [] as Noticias[]
 
   ngOnInit(): void {
     this.carregarNoticias()
@@ -19,8 +19,8 @@ export class HomeComponent implements OnInit {
 
   carregarNoticias() {
     this.noticiaService.getNoticias().subscribe( (noticiasRecebidas: Noticias[]) => {
-      this.ListaNoticias = noticiasRecebidas;
-      console.log(this.ListaNoticias);
+      this.listaNoticias = noticiasRecebidas;
+      console.log(this.listaNoticias);
     } )
   }
 
